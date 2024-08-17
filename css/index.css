@@ -300,6 +300,7 @@ button.next {
     text-decoration: none;
     font-size: 13px;
     color: inherit;
+
   }
   /* nav1 */
   .geniozis{
@@ -308,7 +309,8 @@ button.next {
     gap: 10px;
   }
   header {
-    padding: 8px 10px 8px 15px;
+    padding: 5px 10px 5px;
+    border-radius: 0px 0px 20px 20px;
     position: fixed;
     top: 0;
     left: 0;
@@ -379,7 +381,6 @@ body{
     flex-wrap: wrap;
     font-family: 'Open Sans', sans-serif;
   }
-/* From Uiverse.io by kamehame-ha */ 
 .cards {
   display: flex;
   flex-direction: column;
@@ -430,11 +431,13 @@ body{
   justify-content: center;
   flex-direction: column;
   text-align: center;
-  height: 250px;
+  height: auto;
+  border: 1px solid rgb(189, 184, 184);
   width: 90%;
   border-radius: 10px;
   color: rgb(0, 0, 0);
   cursor: pointer;
+  padding-bottom: 10px;
   transition: 400ms;
 }
 .cardt a{
@@ -523,6 +526,12 @@ body{
   width: 100%;
 }
 }
+@media (max-width: 400px){
+  header{
+    border-radius: 0px;
+    padding: 10px;
+  }
+  }
 
 @media (max-width: 291px){
   .navigation a {
