@@ -198,7 +198,7 @@ button.next {
   box-shadow: 0 6px 15px rgb(99, 99, 99);
   border: 2px solid red;
 }
-.card:hover > .card-item:not(:hover) {
+#card:hover > .card-item:not(:hover) {
   filter: blur(10px);
   transform: scale(0.9, 0.9);
 }
