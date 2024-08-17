@@ -164,10 +164,10 @@ dualima.addEventListener('click', ()=>{
     alert('Rakhi: tidak ada proses yang mudah untuk tujuan yang indah')
 })
 duaenam.addEventListener('click', ()=>{
-    alert('Manusia hanyalah alat')
+    alert('rayfans: Manusia hanyalah alat')
 })
 duatujuh.addEventListener('click', ()=>{
-    alert('ga ada pesan')
+    alert('rhaysa: perjuangan kita harus terus berlanjut meskipun terhalang berbagai rintangan diri. Ayo bersama membangun kesadaran agar tumbuh lestari.')
 })
 duadelapan.addEventListener('click', ()=>{
     alert('riski dp: kejar lah cita cita bukan cinta')
