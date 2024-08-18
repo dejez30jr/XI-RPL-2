@@ -60,18 +60,10 @@ document.querySelectorAll('.navi').forEach(navItem => {
     });
 });
 
-function showAlert() {
-    // Ganti dengan pesan yang Anda inginkan
-    var message = "Pesan khusus tanpa domain!";
-    alert(message);
-}
-
-// Memanggil fungsi saat halaman di klik atau event lain
-document.addEventListener('click', showAlert);
 
 
 // tag nama kelas
-const satu = document.getElementBy
+const satu = document.getElementById('1');
 const dua = document.getElementById('2');
 const tiga = document.getElementById('3');
 const empat = document.getElementById('4');
