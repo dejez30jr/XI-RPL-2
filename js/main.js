@@ -60,7 +60,9 @@ document.querySelectorAll('.navi').forEach(navItem => {
     });
 });
 
-
+function showAlert() {
+    alert("Selamat datang di website saya!");
+}
 
 // tag nama kelas
 const satu = document.getElementById('1');
