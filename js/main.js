@@ -65,7 +65,7 @@ function showAlert() {
 }
 
 // tag nama kelas
-const satu = document.getElementById('1');
+const satu = document.getElementBy
 const dua = document.getElementById('2');
 const tiga = document.getElementById('3');
 const empat = document.getElementById('4');
