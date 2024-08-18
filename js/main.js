@@ -40,7 +40,7 @@ window.onload = function() {
     autoSlide();
 };
 
-// data bocah rpl
+// bocah rpl
 document.querySelectorAll('.navi').forEach(navItem => {
     navItem.addEventListener('click', function(event) {
         event.preventDefault(); // Menghentikan tindakan default dari klik
