@@ -61,8 +61,14 @@ document.querySelectorAll('.navi').forEach(navItem => {
 });
 
 function showAlert() {
-    alert("Selamat datang di website saya!");
+    // Ganti dengan pesan yang Anda inginkan
+    var message = "Pesan khusus tanpa domain!";
+    alert(message);
 }
+
+// Memanggil fungsi saat halaman di klik atau event lain
+document.addEventListener('click', showAlert);
+
 
 // tag nama kelas
 const satu = document.getElementBy
